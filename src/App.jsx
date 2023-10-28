@@ -2,6 +2,7 @@ import "bulma/css/bulma.css";
 import "./App.css";
 import Course from "./Component/Course.jsx";
 import React from "./images/React.png";
+import Test from "./Component/test.jsx";
 
 function App() {
   return (
@@ -16,32 +17,33 @@ function App() {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <Course
+              <Test image={React} title="Vue" description="Lorem ipsum dol" />
+              {/* <Course
                 image={React}
                 title="Angular"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rerum laboriosam nulla, fugit ea id illo laborum aliquam veniam voluptatibus numquam tenetur! Accusantium suscipit culpa veritatis ea laborum iste omnis."
-              />
+              /> */}
             </div>
             <div className="column">
-              <Course
+              {/* <Course
                 image={React}
                 title="Vue"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rerum laboriosam nulla, fugit ea id illo laborum aliquam veniam voluptatibus numquam tenetur! Accusantium suscipit culpa veritatis ea laborum iste omnis."
-              />
+              /> */}
             </div>
             <div className="column">
-              <Course
+              {/* <Course
                 image={React}
                 title="React"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rerum laboriosam nulla, fugit ea id illo laborum aliquam veniam voluptatibus numquam tenetur! Accusantium suscipit culpa veritatis ea laborum iste omnis."
-              />
+              /> */}
             </div>
             <div className="column">
-              <Course
+              {/* <Course
                 image={React}
                 title="Nuxt"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore rerum laboriosam nulla, fugit ea id illo laborum aliquam veniam voluptatibus numquam tenetur! Accusantium suscipit culpa veritatis ea laborum iste omnis."
-              />
+              /> */}
             </div>
           </div>
         </div>
